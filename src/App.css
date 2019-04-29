@@ -17,7 +17,7 @@ html,body,#root{
   height: 100%;
   fill: yellow;
   stroke: #000;
-  stroke-width: 5px;
+  stroke-width: 1px;
 }
 .consider {
   width: 100%;
@@ -41,7 +41,11 @@ html,body,#root{
   border: solid 1px black;
 }
 .map-usa {
-  background: url('./source/img/mapUsa.jpg')no-repeat center center;
+  background: url('./source/img/mapUsa1.jpg')no-repeat center center;
   background-size: contain;
 }
+nav a {
+  padding: 5px 15px;
+}
+
 

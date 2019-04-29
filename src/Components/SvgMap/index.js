@@ -1,18 +1,22 @@
 import React from 'react';
-import {washington, oregon, californ, nevada, arisona, uta, idaho, montana, wyoming } from '../../source/data/points';
+import states from './../../source/data/points';
 
-export default (props) => {
-  return (
-    <svg className="svg-map">
-      <polygon points={washington} />
-      <polygon points={oregon} />
-      <polygon points={californ} />
-      <polygon points={nevada} />
-      <polygon points={arisona} />
-      <polygon points={uta} />
-      <polygon points={idaho} />
-      <polygon points={montana} />
-      <polygon points={wyoming} />
-    </svg>
-    )
+class Svg extends React.Component {
+  render () {
+    //console.log(states);
+    //let polygons = [];
+    /*for(let state of states) {
+      console.log(state);
+      //polygons.push(<polygon points={state} />)
+    }*/
+    let polygons = Object.keys(states).map(point => <polygon points={states[point]} />)
+
+    return (
+      <svg className="svg-map">
+        {polygons}
+      </svg>
+      )
+  }
 }
+
+export default Svg;
