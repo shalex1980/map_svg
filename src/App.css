@@ -19,6 +19,9 @@ html,body,#root{
   stroke: #000;
   stroke-width: 1px;
 }
+.svg-map polygon:hover {
+  fill: orange;
+}
 .consider {
   width: 100%;
   height: 100%;
@@ -47,5 +50,6 @@ html,body,#root{
 nav a {
   padding: 5px 15px;
 }
+
 
 
