@@ -12,16 +12,7 @@ html,body,#root{
   width: 100%;
   height: 100%;
 }
-.svg-map {
-  width: 100%;
-  height: 100%;
-  fill: yellow;
-  stroke: #000;
-  stroke-width: 1px;
-}
-.svg-map polygon:hover {
-  fill: orange;
-}
+
 .consider {
   width: 100%;
   height: 100%;
@@ -47,9 +38,4 @@ html,body,#root{
   background: url('./source/img/mapUsa1.jpg')no-repeat center center;
   background-size: contain;
 }
-nav a {
-  padding: 5px 15px;
-}
-
-
 

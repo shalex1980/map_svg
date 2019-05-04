@@ -1,0 +1,15 @@
+.aside {
+  position: absolute;
+  z-index: +1;
+  right: 0;
+  top: 0;
+  text-align: right;
+  border: solid 2px black;
+}
+.menu {
+
+}
+.menu a {
+  display: block;
+  padding: 5px 15px;
+}
