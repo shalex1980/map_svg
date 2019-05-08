@@ -9,7 +9,6 @@ function Aside () {
           <Link to="/">Home</Link>
           <Link to="/consider">Consider</Link>
           <Link to="/svg">Svg</Link>
-          <Link to="/into">Into</Link>
         </nav>
     </aside>
     )

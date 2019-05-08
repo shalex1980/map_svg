@@ -2,9 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 class Polygon extends React.Component {
-  handleClick = (ev) => {
-    let name = ev.target.getAttribute('data-name');
-  }
   onMouseEnter = (ev) => {
     let name = ev.target.getAttribute('data-name');
     console.log(name);
@@ -17,7 +14,6 @@ class Polygon extends React.Component {
           className={state} 
           data-name={state}
           points={points} 
-          onClick={this.handleClick}
           onMouseEnter={hover}
         />
       </ Link>
